@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thornburgh — Green Utopia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">Thornburgh</a>
+      <ul class="nav-links">
+        <li><a href="#green">Green Space</a></li>
+        <li><a href="#transit">Transit</a></li>
+        <li><a href="#resources">Resources</a></li>
+        <li><a href="#equity">Equity</a></li>
+        <li><a href="#architecture">Architecture</a></li>
+        <li><a href="#resilience">Resilience</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content fade-up">
+      <p class="hero-tagline">150 square miles &middot; 4 million residents &middot; Carbon-negative &middot; Landlocked Europe</p>
+      <h1 class="hero-title">A City Built<br><em>for Everyone</em></h1>
+      <p class="hero-subtitle">A city built for all 4 million of its residents &mdash; today, and for generations to come.</p>
+      <a href="#green" class="hero-cta">Explore the City</a>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- CITY AT A GLANCE -->
+  <section class="glance" id="glance">
+    <div class="container">
+      <h2 class="section-label">The City at a Glance</h2>
+      <div class="stats-grid">
+        <div class="stat-card fade-up">
+          <span class="stat-num">150</span>
+          <span class="stat-label">Metro Stations</span>
+        </div>
+        <div class="stat-card fade-up" style="--delay:0.1s">
+          <span class="stat-num">4M</span>
+          <span class="stat-label">Residents</span>
+        </div>
+        <div class="stat-card fade-up" style="--delay:0.15s">
+          <span class="stat-num">150</span>
+          <span class="stat-unit">sq mi</span>
+          <span class="stat-label">City Area</span>
+        </div>
+        <div class="stat-card fade-up" style="--delay:0.2s">
+          <span class="stat-num">45°F</span>
+          <span class="stat-label">Avg. Temperature</span>
+        </div>
+        <div class="stat-card fade-up" style="--delay:0.25s">
+          <span class="stat-num">0</span>
+          <span class="stat-label">Homeless Target</span>
+        </div>
+        <div class="stat-card fade-up" style="--delay:0.3s">
+          <span class="stat-num">600m</span>
+          <span class="stat-label">Max Transit Distance</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GREEN SPACE -->
+  <section id="green" class="section section--green">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-tag">Environmental Design</span>
+        <h2 class="section-title">Green Space</h2>
+        <p class="section-desc">
+          <strong>35%</strong> of total city area is dedicated green space &mdash; parks, forests, gardens, and corridors.
+        </p>
+      </div>
+      <div class="cards-grid">
+        <div class="card fade-up">
+          <div class="card-icon">🌳</div>
+          <h3>Urban Forests</h3>
+          <p>Dense canopy coverage across every district, acting as carbon sinks and natural air filters. Climate-buffering tree coverage target: 40% of total city area.</p>
+        </div>
+        <div class="card fade-up" style="--delay:0.1s">
+          <div class="card-icon">🍎</div>
+          <h3>Community Fruit Gardens</h3>
+          <p>Apples, strawberries, cherries, and other Rose family fruits grown in public orchards throughout the city. Free foraging for all residents.</p>
+        </div>
+        <div class="card fade-up" style="--delay:0.15s">
+          <div class="card-icon">🏞️</div>
+          <h3>Parks Within Walking Distance</h3>
+          <p>Every resident is within a 5-minute walk of a neighborhood park. Sizes vary &mdash; from pocket parks to large district greens.</p>
+        </div>
+        <div class="card fade-up" style="--delay:0.2s">
+          <div class="card-icon">🦋</div>
+          <h3>Wildlife Corridors</h3>
+          <p>Connected green strips through the city enabling safe animal migration and biodiversity. Wetland restoration along the river banks.</p>
+        </div>
+        <div class="card fade-up" style="--delay:0.25s">
+          <div class="card-icon">🌿</div>
+          <h3>Green Roofs Everywhere</h3>
+          <p>Mandatory green roofs on all new buildings &mdash; hosting gardens, solar panels, and stormwater retention systems.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRANSIT -->
+  <section id="transit" class="section section--dark">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-tag">Infrastructure</span>
+        <h2 class="section-title">Transit &amp; Mobility</h2>
+        <p class="section-desc">Every resident lives within 600 meters of a transit station. Dense transit hubs increase walkability and reduce car dependency.</p>
+      </div>
+      <div class="cards-grid">
+        <div class="card card--dark fade-up">
+          <div class="card-icon">⚡</div>
+          <h3>Fully Electric Transit</h3>
+          <p>Every bus, tram, and metro is 100% electric. No combustion engines on city streets. Modeled after Copenhagen's green transit network.</p>
+          <span class="card-compare">Like Copenhagen's metro &mdash; fully automated, driverless, running 24/7.</span>
+        </div>
+        <div class="card card--dark fade-up" style="--delay:0.1s">
+          <div class="card-icon">🚇</div>
+          <h3>600m Station Promise</h3>
+          <p>Every resident lives within 600 meters of a transit station. Dense transit hubs increase walkability and reduce car dependency.</p>
+          <span class="card-compare">Similar to Tokyo's station density &mdash; no resident left behind.</span>
+        </div>
+        <div class="card card--dark fade-up" style="--delay:0.15s">
+          <div class="card-icon">🚲</div>
+          <h3>Cycling-First Design</h3>
+          <p>Wide, smooth cycle paths with traffic lights timed at ~12 mph &mdash; the average cycling speed &mdash; so riders flow through the city without stopping at red lights.</p>
+          <span class="card-compare">Inspired by Copenhagen's 'Green Wave' cycling signal system.</span>
+        </div>
+        <div class="card card--dark fade-up" style="--delay:0.2s">
+          <div class="card-icon">🚶</div>
+          <h3>Pedestrian Priority</h3>
+          <p>Wide walkways, low speed limits, and vehicle-free zones throughout the city center. Safety-first street design puts walkers above all traffic.</p>
+          <span class="card-compare">Modeled on Barcelona's Superblocks &mdash; reclaiming streets for people.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- POPULATION & EQUITY -->
+  <section id="equity" class="section section--warm">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-tag">Population &amp; Equity</span>
+        <h2 class="section-title">Built for Everyone</h2>
+        <p class="section-desc">Thornburgh isn't built for the wealthy or the young &mdash; it's built for all 4 million residents. Equity isn't an afterthought; it's the foundation.</p>
+      </div>
+      <div class="equity-grid">
+        <div class="equity-card fade-up">
+          <div class="equity-card-header">
+            <div class="card-icon">🏠</div>
+            <h3>Affordable Housing</h3>
+          </div>
+          <ul>
+            <li>Government-aided rent assistance for qualifying tenants</li>
+            <li>Down payment assistance &amp; tax incentives for first-time buyers</li>
+            <li>Adaptive reuse: converting vacant buildings and hotels into residential units</li>
+            <li>Increased density around major transit hubs &mdash; more housing where it matters</li>
+          </ul>
+          <span class="card-compare">Inspired by Vienna's social housing model &mdash; 60% of residents live in subsidized housing.</span>
+        </div>
+        <div class="equity-card fade-up" style="--delay:0.1s">
+          <div class="equity-card-header">
+            <div class="card-icon">🏙️</div>
+            <h3>Mixed-Income Living</h3>
+          </div>
+          <ul>
+            <li>Vertically mixed buildings: market-rate and subsidized units in the same tower</li>
+            <li>No segregated 'poor neighborhoods' &mdash; wealth diversity by design</li>
+            <li>Shared amenities: parks, plazas, markets where all income levels interact daily</li>
+          </ul>
+          <span class="card-compare">Like NYC's inclusionary zoning, but taken further &mdash; every building participates.</span>
+        </div>
+        <div class="equity-card fade-up" style="--delay:0.15s">
+          <div class="equity-card-header">
+            <div class="card-icon">🏡</div>
+            <h3>Zero Homelessness Goal</h3>
+          </div>
+          <ul>
+            <li>Government-funded jobs programs for financial instability</li>
+            <li>Housing-first approach with wraparound support services</li>
+            <li>Every district has transitional housing and mental health resources</li>
+          </ul>
+          <span class="card-compare">Modeled after Finland's Housing First policy &mdash; the only EU country reducing homelessness.</span>
+        </div>
+        <div class="equity-card fade-up" style="--delay:0.2s">
+          <div class="equity-card-header">
+            <div class="card-icon">🏥</div>
+            <h3>Universal Healthcare</h3>
+          </div>
+          <ul>
+            <li>~150 hospitals across 150 sq mi &mdash; one per square mile</li>
+            <li>Fair, timely access to high-quality care for every resident</li>
+            <li>Neighborhood clinics within walking distance of every home</li>
+          </ul>
+          <span class="card-compare">Density exceeds even Singapore's world-leading healthcare access.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ARCHITECTURE -->
+  <section id="architecture" class="section section--stone">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-tag">Architecture That Heals</span>
+        <h2 class="section-title">Environmental Design</h2>
+        <p class="section-desc">Modeled after Amsterdam's concentric canal layout, with architecture inspired by Prague's Gothic spires and Madrid's grand boulevards. What's above ground is beautiful&mdash;but what's beneath is optimized for long-term success.</p>
+      </div>
+      <div class="cards-grid cards-grid--3">
+        <div class="card fade-up">
+          <div class="card-icon">🏗️</div>
+          <h3>Carbon-Negative Skyscrapers</h3>
+          <p>High-rises built with carbon-negative concrete that absorbs more CO₂ than it emits during production. Every skyscraper is a carbon sink.</p>
+        </div>
+        <div class="card fade-up" style="--delay:0.1s">
+          <div class="card-icon">🏰</div>
+          <h3>Prague-Style Stone Houses</h3>
+          <p>Lower residential areas feature stone brownstones and mid-rises inspired by Prague's historic Old Town &mdash; beautiful, durable, and thermally efficient.</p>
+        </div>
+        <div class="card fade-up" style="--delay:0.15s">
+          <div class="card-icon">🌲</div>
+          <h3>Green Roofs &amp; Vertical Forests</h3>
+          <p>Every building features living green roofs. Taller structures incorporate vertical forests &mdash; like Milan's Bosco Verticale &mdash; with trees growing on every balcony.</p>
+        </div>
+        <div class="card fade-up" style="--delay:0.2s">
+          <div class="card-icon">☀️</div>
+          <h3>Passive Solar Design</h3>
+          <p>Glass roofs and large south-facing windows maximize natural light in Thornburgh's cold (45°F avg) climate, reducing heating needs through solar gain.</p>
+        </div>
+        <div class="card fade-up" style="--delay:0.25s">
+          <div class="card-icon">🌊</div>
+          <h3>Flood-Resistant Design</h3>
+          <p>Elevated ground floors, waterfront parks as natural buffers, and elevated skyscraper foundations protect against river flooding events.</p>
+        </div>
+        <div class="card fade-up" style="--delay:0.3s">
+          <div class="card-icon">💧</div>
+          <h3>Water Recycling Systems</h3>
+          <p>Every building recycles greywater from sinks and showers. Combined with filtered rainwater and river water, the city achieves near-zero water waste.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESILIENCE -->
+  <section id="resilience" class="section section--deep">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-tag">Future-Proofing</span>
+        <h2 class="section-title">What Lies Beneath</h2>
+        <p class="section-desc">The true optimization of Thornburgh is underground &mdash; water filtration, energy grids, waste processing, and food systems designed for circular, zero-waste operation.</p>
+        <p class="section-subdesc">Assuming climate change continues, populations shift, and extreme weather increases &mdash; Thornburgh is built to adapt, not collapse.</p>
+      </div>
+      <div class="resilience-grid">
+        <div class="resilience-card fade-up">
+          <div class="resilience-q">
+            <div class="card-icon">🌧️</div>
+            <h3>Flooding &amp; Water Stress</h3>
+          </div>
+          <p>Waterfront parks act as natural flood buffers. Bioswales and permeable pavements manage stormwater. The hydroelectric dam includes flood-control gates. River water filtration ensures drought-resilient water supply.</p>
+        </div>
+        <div class="resilience-card fade-up" style="--delay:0.1s">
+          <div class="resilience-q">
+            <div class="card-icon">🌍</div>
+            <h3>Population Shifts &amp; Climate Migration</h3>
+          </div>
+          <p>High-density vertical living accommodates population growth without sprawl. Adaptive reuse policies convert vacant structures into housing rapidly. Transit-oriented density means new arrivals integrate without car dependency.</p>
+        </div>
+        <div class="resilience-card fade-up" style="--delay:0.15s">
+          <div class="resilience-q">
+            <div class="card-icon">⚡</div>
+            <h3>Energy Grid Resilience</h3>
+          </div>
+          <p>Distributed microgrid architecture &mdash; solar, wind, and hydro across every district. No single point of failure. Battery storage in every building ensures 72-hour autonomy during grid disruptions.</p>
+        </div>
+        <div class="resilience-card fade-up" style="--delay:0.2s">
+          <div class="resilience-q">
+            <div class="card-icon">🌾</div>
+            <h3>Food Security</h3>
+          </div>
+          <p>Urban farms, rooftop gardens, and community orchards produce a significant portion of the city's food locally. Indoor vertical farms operate year-round regardless of climate conditions. Free supermarkets eliminate food deserts.</p>
+        </div>
+        <div class="resilience-card fade-up" style="--delay:0.25s">
+          <div class="resilience-q">
+            <div class="card-icon">🌡️</div>
+            <h3>Biodiversity</h3>
+          </div>
+          <p>Carbon-negative buildings absorb CO₂. Green roofs and urban forests moderate temperatures. The city's cold baseline (45°F avg) means heat islands are less severe, but tree canopy still provides cooling during warming summers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESOURCES -->
+  <section id="resources" class="section section--light">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-tag">Resilience by Design</span>
+        <h2 class="section-title">City Resources</h2>
+        <p class="section-desc">Every system in Thornburgh is designed for self-sufficiency, circularity, and long-term sustainability.</p>
+      </div>
+      <div class="resources-grid">
+        <div class="resource-item fade-up">
+          <div class="resource-icon">🔋</div>
+          <div>
+            <h4>Distributed Energy Grid</h4>
+            <p>Solar, wind, and hydro generation across every district. Battery storage ensures 72-hour autonomy.</p>
+          </div>
+        </div>
+        <div class="resource-item fade-up" style="--delay:0.1s">
+          <div class="resource-icon">🌀</div>
+          <div>
+            <h4>Zero-Waste Processing</h4>
+            <p>Underground waste processing and circular material flows. Near-zero landfill output.</p>
+          </div>
+        </div>
+        <div class="resource-item fade-up" style="--delay:0.15s">
+          <div class="resource-icon">💧</div>
+          <div>
+            <h4>Water Filtration &amp; Recycling</h4>
+            <p>Multi-stage river water filtration, greywater recycling, and rainwater harvesting across all buildings.</p>
+          </div>
+        </div>
+        <div class="resource-item fade-up" style="--delay:0.2s">
+          <div class="resource-icon">🥦</div>
+          <div>
+            <h4>Local Food Systems</h4>
+            <p>Urban farms, vertical indoor farms, community orchards, and free supermarkets eliminate food deserts.</p>
+          </div>
+        </div>
+        <div class="resource-item fade-up" style="--delay:0.25s">
+          <div class="resource-icon">🌐</div>
+          <div>
+            <h4>Digital Infrastructure</h4>
+            <p>City-wide fiber network, smart traffic systems, and open data platforms for civic participation.</p>
+          </div>
+        </div>
+        <div class="resource-item fade-up" style="--delay:0.3s">
+          <div class="resource-icon">🏫</div>
+          <div>
+            <h4>Education &amp; Libraries</h4>
+            <p>Neighborhood schools within walking distance. Free public libraries with maker spaces and digital access for all.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <p class="footer-logo">Thornburgh</p>
+          <p class="footer-tagline">150 sq mi &middot; 4M residents &middot; Carbon-negative</p>
+        </div>
+        <nav class="footer-nav">
+          <a href="#green">Green Space</a>
+          <a href="#transit">Transit</a>
+          <a href="#equity">Equity</a>
+          <a href="#architecture">Architecture</a>
+          <a href="#resilience">Resilience</a>
+        </nav>
+      </div>
+      <p class="footer-copy">&copy; Thornburgh City Concept &mdash; A vision for equitable, sustainable urban design.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Intersection Observer for fade-up animations
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+    // Sticky nav active state
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-links a');
+
+    const navObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          navLinks.forEach(link => link.classList.remove('active'));
+          const activeLink = document.querySelector(`.nav-links a[href="#${entry.target.id}"]`);
+          if (activeLink) activeLink.classList.add('active');
+        }
+      });
+    }, { threshold: 0.3 });
+
+    sections.forEach(s => navObserver.observe(s));
+
+    // Nav scroll effect
+    window.addEventListener('scroll', () => {
+      const navbar = document.getElementById('navbar');
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+
+    // Mobile nav toggle
+    const toggle = document.querySelector('.nav-toggle');
+    const navLinksEl = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => {
+      navLinksEl.classList.toggle('open');
+      toggle.classList.toggle('active');
+    });
+    navLinksEl.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        navLinksEl.classList.remove('open');
+        toggle.classList.remove('active');
+      });
+    });
+  </script>
+</body>
+</html>
