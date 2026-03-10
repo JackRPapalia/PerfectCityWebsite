@@ -176,13 +176,7 @@ h1, h2, h3, h4 {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background:
-    linear-gradient(180deg,
-      rgba(10, 20, 15, 0.85) 0%,
-      rgba(26, 58, 42, 0.7) 50%,
-      rgba(15, 21, 32, 0.9) 100%
-    ),
-    url('https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1600&q=80') center/cover no-repeat;
+  background: url('greenspace-image.jpg') center/cover no-repeat;
   z-index: 0;
 }
 
@@ -988,8 +982,7 @@ background: #fff;
   left: 0;
   right: 0;
   bottom: 0;
-  background: #0000;
-  background: linear-gradient(165deg, rgba(0, 255, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  background: linear-gradient(135deg, rgba(26, 58, 42, 0.3) 0%, rgba(58, 125, 68, 0.4) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1037,8 +1030,3 @@ background: #fff;
   line-height: 1.6;
   margin: 0;
 }
-
-/* .background {
-  background: #00ff00;
-  background: linear-gradient(165deg, rgba(0, 255, 0, 1) 79%, rgba(0, 0, 0, 1) 100%);
-} */
