@@ -868,11 +868,9 @@ h4 {
 }
 
 .architecture-card {
-  background: #fff;
+  background: transparent;
   border-radius: var(--radius);
   padding: 32px;
-  box-shadow: var(--shadow-sm);
-  border: 1px solid rgba(0, 0, 0, 0.06);
   transition: transform var(--transition), box-shadow var(--transition);
 }
 
