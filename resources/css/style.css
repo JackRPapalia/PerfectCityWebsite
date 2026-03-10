@@ -176,13 +176,7 @@ h1, h2, h3, h4 {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background:
-    linear-gradient(180deg,
-      rgba(10, 20, 15, 0.85) 0%,
-      rgba(26, 58, 42, 0.7) 50%,
-      rgba(15, 21, 32, 0.9) 100%
-    ),
-    url('https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1600&q=80') center/cover no-repeat;
+  background: url('resources/images/city-overview.jpg') center/cover no-repeat;
   z-index: 0;
 }
 
