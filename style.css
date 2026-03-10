@@ -176,7 +176,7 @@ h1, h2, h3, h4 {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background: url('greenspace-image.jpg') center/cover no-repeat;
+  background: url('resources/images/city-overview.jpg') center/cover no-repeat;
   z-index: 0;
 }
 
