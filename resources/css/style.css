@@ -414,7 +414,7 @@ h4 {
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(1, minmax(100px, 1fr));
-  gap: 24px;
+  gap: 5px;
   justify-items: center;
   place-items: center;
   text-align: center;
@@ -423,7 +423,7 @@ h4 {
 .card {
   background: #fff;
   border-radius: var(--radius);
-  padding: 32px;
+  padding: 10px;
   box-shadow: var(--shadow-sm);
   border: 1px solid rgba(0, 0, 0, 0.06);
   transition: transform var(--transition), box-shadow var(--transition);
@@ -479,9 +479,9 @@ h4 {
 .greenspace-layout {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 60px;
+  gap: 5px;
   align-items: start;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 .greenspace-overlay {
@@ -510,13 +510,13 @@ h4 {
 .greenspace-content {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 20px;
 }
 
 .greenspace-item {
   display: grid;
   grid-template-columns: 220px 1fr;
-  gap: 20px;
+  gap: 5px;
   align-items: center;
 }
 
@@ -539,7 +539,7 @@ h4 {
 .greenspace-card {
   background: transparent;
   border-radius: var(--radius);
-  padding: 32px;
+  padding: 10px;
   transition: transform var(--transition), box-shadow var(--transition);
 }
 
@@ -561,7 +561,7 @@ h4 {
 .transit-card {
   background: transparent;
   border-radius: var(--radius);
-  padding: 32px;
+  padding: 10px;
   transition: transform var(--transition), box-shadow var(--transition);
 }
 
@@ -592,7 +592,7 @@ h4 {
 .equity-card {
   background: transparent;
   border-radius: var(--radius);
-  padding: 28px;
+  padding: 10px;
   max-width: 700px;
   width: 100%;
   cursor: pointer;
@@ -692,7 +692,7 @@ h4 {
 .architecture-card {
   background: transparent;
   border-radius: var(--radius);
-  padding: 32px;
+  padding: 10px;
   transition: transform var(--transition), box-shadow var(--transition);
 }
 
@@ -726,7 +726,7 @@ h4 {
 .resilience-card {
   background: transparent;
   border-radius: var(--radius);
-  padding: 28px;
+  padding: 10px;
   transition: background var(--transition), border-color var(--transition), transform var(--transition), box-shadow var(--transition);
 }
 
@@ -770,7 +770,7 @@ h4 {
   display: grid;
   gap: 16px;
   align-items: flex-start;
-  padding: 24px;
+  padding: 10px;
   background: transparent;
   border-radius: var(--radius-sm);
   transition: background var(--transition), transform var(--transition), box-shadow var(--transition);
