@@ -557,6 +557,11 @@ h4 {
   line-height: 1.7;
 }
 
+.greenspace-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
 /* === TRANSIT === */
 .transit-card {
   background: transparent;
@@ -577,6 +582,11 @@ h4 {
   font-size: 0.9rem;
   color: var(--ink);
   line-height: 1.7;
+}
+
+.transit-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
 }
 
 /* === EQUITY GRID === */
@@ -654,6 +664,11 @@ h4 {
 
 .equity-card ul li:last-child {
   border-bottom: none;
+}
+
+.equity-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
 }
 
 .equity-card.expanded {
@@ -758,6 +773,11 @@ h4 {
   text-align: center;
 }
 
+.resilience-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
 /* === RESOURCES === */
 .resources-grid {
   display: grid;
@@ -796,6 +816,11 @@ h4 {
   font-size: 0.875rem;
   color: var(--ink);
   line-height: 1.6;
+}
+
+.resource-item:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
 }
 
 /* === GALLERY === */
@@ -872,6 +897,7 @@ h4 {
   border-top: 1px solid rgba(255, 255, 255, 0.06);
   padding-top: 24px;
 }
+
 
 /* === RESPONSIVE === */
 @media (max-width: 768px) {
