@@ -751,7 +751,7 @@ h4 {
   text-align: center;
 }
 
-.resilience-card > p {
+.resilience-card>p {
   font-size: 0.875rem;
   color: black;
   line-height: 1.7;
@@ -807,14 +807,16 @@ h4 {
 
 .gallery-item {
   width: 100%;
-  height: 400px;   /* controls the visual size of each image */
+  height: 400px;
+  /* controls the visual size of each image */
   overflow: hidden;
 }
 
 .gallery-item img {
   width: 100%;
   height: 100%;
-  object-fit: cover;   /* crops images so they fill the box evenly */
+  object-fit: cover;
+  /* crops images so they fill the box evenly */
   display: block;
 }
 
@@ -918,6 +920,14 @@ h4 {
 
   .stats-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .image-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-item {
+    height: 260px;
   }
 
   .footer-inner {
